@@ -18,6 +18,7 @@ import Axios02 from '../ch04/Axios02';
 import Axios02_2 from '../ch04/Axios02_2';
 import Axios03 from '../ch04/Axios03';
 import Axios04 from '../ch04/Axios04';
+import Axios05 from '../ch04/Axios05';
 
 
 const appObj = {
@@ -40,13 +41,14 @@ const appObj = {
     "Axios02_2" :  <Axios02_2 />,
     "Axios03" :  <Axios03 />,
     "Axios04" :  <Axios04 />,
+    "Axios05" :  <Axios05 />,
 
     // "ch01_1" : <h1>ch01_1 렌더링</h1>,
     // "ch01_2" : BoxComponent(),
     // "ch01_3" : <BoxComponent />,
     // "ch01_4" : <BoxComponent></BoxComponent>,
 } 
-const currentApp = "Axios04";
+const currentApp = "Axios05";
 
 const root = document.getElementById('root');
 createRoot(root).render(appObj[currentApp]);
